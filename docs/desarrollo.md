@@ -50,7 +50,7 @@ Una vez definidas las rutas demandadas por la consigna, pasemos a crear los comp
 Una vez que ya tenemos toda la estructura de nuestra aplicación podemos pasar a consumir la API realizando una llamada por fetch o axios.
 
 - Deberán guardar dicha información en un contexto global, junto con el theme de la app.
-- Utilizando useReducer crear los métodos necesarios para el manejo de su comportamiento (cambio de theme de la App y guardado de la respuesta de la API en el Contexto).
+- Utilizando useReducer crear los métodos necesarios para el manej  o de su comportamiento (cambio de theme de la App y guardado de la respuesta de la API en el Contexto).
 
 ### Paso 4: Consumir Contexto Global
 

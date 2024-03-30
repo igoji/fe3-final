@@ -11,6 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  text-align: center;
+}
+
 .favButton{
   background-color: rgba(136, 136, 136, 0.116);
   padding: 10px;
@@ -23,10 +28,21 @@ h1{
   text-align: center;
 }
 
+.buttonBottom{
+text-align: center;  
+margin-top: 1rem;
+}
+
 nav{
   display: flex;
-  width: 80vw;
-  justify-content: flex-start;
+  width: 90vw;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: peru;
+  margin: auto;
+}
+
+nav button{
   padding: 1rem;
 }
 
@@ -70,14 +86,29 @@ form{
   margin: 0 auto;
 }
 
+form label{
+  font-weight: bold;
+  text-align: right;
+}
+
+input{
+  width: 200px;
+}
+
 .card{
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  width: 200px;
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  text-align: center;
+  width: 230px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   border: 0.5px solid rgb(136, 136, 136);
+}
+
+.card button{
+  padding: 0.3rem;
+  margin-top: 0.5rem;
 }
 
 .card:hover{
@@ -94,12 +125,26 @@ form{
   margin: 0 auto;
 }
 
+.card-grid-dark{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: rgb(51, 49, 56);
+  color: #dddddd;
+}
+
+
 table {
- border-collapse: collapse;
+    border-collapse: collapse;
     border-spacing: 0;
-    width: 100%;
+    width: 90%;
     display: table;
     border: 1px solid #ccc;
+    margin: auto;
 
 }
 
@@ -109,9 +154,6 @@ td, th {
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
 
 .dark{
   background-color: #12121296;
@@ -120,3 +162,4 @@ tr:nth-child(even) {
 .dark > a {
   color: white;
 }
+
